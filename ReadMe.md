@@ -8,13 +8,28 @@ Sync View Scroll is a simple [Sublime Text 3](http://www.sublimetext.com/3 ) plu
 
 *note: st2 should work, if you find any bug, please open an issue at github.*
 
-## Install
 
-Using [Package Control](https://sublime.wbond.net/installation) && search `syncviewscroll`
+## Installation
 
-*OR*
+### By Package Control
 
-Just clone this repo and put it under your sublime-text package folder.
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `SyncViewScroll` and press <kbd>Enter</kbd>
+
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
 
 ## Usage
 
@@ -27,10 +42,10 @@ Just clone this repo and put it under your sublime-text package folder.
 zzjin tczzjin#gmail.com
 
 ## Thanks
- [@FichteFoll](https://github.com/FichteFoll) to suggest add command palette support  
- [@pribilinskiy](https://github.com/pribilinskiy) to report windows menu toggle bug  
- [@spywhere](https://github.com/spywhere) to report is_check error in some case views are not inited  
- [@Kl0tl](https://github.com/Kl0tl) to add support for horizontal scroll and implement the configureable staus bar text, Thanks!  
+ [@FichteFoll](https://github.com/FichteFoll) to suggest add command palette support
+ [@pribilinskiy](https://github.com/pribilinskiy) to report windows menu toggle bug
+ [@spywhere](https://github.com/spywhere) to report is_check error in some case views are not inited
+ [@Kl0tl](https://github.com/Kl0tl) to add support for horizontal scroll and implement the configureable staus bar text, Thanks!
  [@getify](https://github.com/getify) and [@CSester](https://github.com/CSester) to report st2 activate bug
 
 ## TODO
